@@ -19,10 +19,10 @@ if (tipoDoHeroi === "Mago"){
     return "Espada"
 }
 }
-let heroiPersonalizado = new heroi("Hamash", "24", "Mago")
-let outroHeroi = new heroi("Chaves", "30", "Guerreiro")
-let maisUmHeroi = new heroi ("kakashi", "42", "Monge")
+let heroiMago = new heroi("Hamash", "24", "Mago")
+let heroiGuerreiro = new heroi("Chaves", "30", "Guerreiro")
+let heroiMonge = new heroi ("kakashi", "42", "Monge")
 
-outroHeroi.atacar()
-heroiPersonalizado.atacar()
-maisUmHeroi.atacar()
+heroiMago.atacar()
+heroiGuerreiro.atacar()
+heroiMonge.atacar()
